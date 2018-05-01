@@ -1,0 +1,54 @@
+.calc {
+    width: 430px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 0;
+    border: 2px solid rgb(59, 9, 9);
+    overflow: hidden;
+}
+
+.display {
+    padding: 10px 20px;
+    border-radius: 10px;
+    height: 100px;
+    border: 1px solid rgb(50, 150, 80);
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 70px;
+    line-height: 100px;
+}
+
+.btn {
+    outline: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.btn-numbers {
+    float: left;
+    width: 330px; 
+}
+
+.btn-numbers .btn {
+    margin-left: 10px;
+}
+
+.btn-numbers .btn:nth-child(3n+1) {
+    margin-left: 0;
+  }
+
+.btn-func {
+    float: left;
+    width: 100px;
+}
+
+.btn.result {
+    width: 100%;
+}
